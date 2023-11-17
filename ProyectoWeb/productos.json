@@ -1,0 +1,176 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Roles Datejust",
+            "price": 101,
+            "image": "https://petmas.masfinca.com/wp-content/uploads/2017/05/DOG-CHOW-ADULTO-MINIS-PEQUE%C3%91AS.jpg",
+            "category": "comida"
+        },
+        {
+            "id": 2,
+            "title": "Ratones de Peluche",
+            "price": 104,
+            "image": "https://dcdn.mitiendanube.com/stores/001/049/402/products/juguete-gato-ratoncitos-peluche1-c48bb96fc0140565cf16286499019974-640-0.jpg",
+            "category": "juguetes"
+        },
+        {
+            "id": 3,
+            "title": "Cepillo de Pelo",
+            "price": 75,
+            "image": "https://petitpaws.com.co/cdn/shop/products/Furminator-Deslanador-Perro-Grande-Pelo-Largo.jpg?v=1673537186",
+            "category": "cepillos"
+        },
+        {
+            "id": 4,
+            "title": "Guacal para Perros",
+            "price": 99,
+            "image": "https://animalscenter.com/2522-large_default/guacal-mascota-atlas-classic-60-45-kg.jpg",
+            "category": "guacales"
+        },
+        {
+            "id": 5,
+            "title": "Noveha",
+            "price": 105,
+            "image": "https://m.media-amazon.com/images/I/812hpgz0xwL._AC_SL1500_.jpg",
+            "category": "gotas"
+
+        },
+        {
+            "id": 6,
+            "title": "QualiVet",
+            "price": 85,
+            "image": "https://www.agrocampo.com.co/media/catalog/product/cache/d51e0dc10c379a6229d70d752fc46d83/5/8/5858658605860001742-min.jpg",
+            "category": "suplemento"
+
+        },
+        {
+            "id": 7,
+            "title": "Glicopan",
+            "price": 60,
+            "image": "https://pukipetshop.com/wp-content/uploads/2020/05/9-GLICOPAN-125ML.jpg",
+            "category": "suplemento"
+        },
+        {
+            "id": 8,
+            "title": "Flores Bach",
+            "price": 35,
+            "image": "https://falabella.scene7.com/is/image/FalabellaCO/gsc_117608472_1823807_1?wid=800&hei=800&qlt=70",
+            "category": "gotas"
+        },
+        {
+            "id": 9,
+            "title": "Guacal Para Perro Pequeño",
+            "price": 799,
+            "image": "https://petoutlet.com.co/wp-content/uploads/2021/08/60054-Maletin-Guacal-Para-Mascotas-Mayoristas-PetOutlet-OKAL-petoutlet.com_.co-1.jpg",
+            "category": "guacales"
+        },
+        {
+            "id": 10,
+            "title": "Cepillo de Pelo",
+            "price": 101,
+            "image": "https://verdecora.es/blog/wp-content/uploads/2019/05/tipos-cepillos-perros-cepillo-pelo-largo.jpg",
+            "category": "cepillos"
+        },
+        {
+            "id": 11,
+            "title": "Varilla con Pelota",
+            "price": 650,
+            "image": "https://www.icasa.com/wp-content/uploads/2021/06/ch2022-juguete-para-gatos-con-varilla-con-bola-y-colas-de-plumas-46-cm_general_4857.jpg",
+            "category": "juguetes"
+        },
+        {
+            "id": 12,
+            "title": "GRAND VITA CORDERO",
+            "price": 65,
+            "image": "https://petmas.masfinca.com/wp-content/uploads/2023/08/Grand-Vita-Cahchorro.png",
+            "category": "comida"
+        },
+        {
+            "id": 13,
+            "title": "Adore Gatos",
+            "price": 101,
+            "image": "https://petmas.masfinca.com/wp-content/uploads/2017/09/ADORE-GATOS.jpg",
+            "category": "comida"
+        },
+        {
+            "id": 14,
+            "title": "Pelota",
+            "price": 104,
+            "image": "https://www.bazzarbog.com/66376-large_default/juguete-para-perros.jpg",
+            "category": "juguetes"
+        },
+        {
+            "id": 15,
+            "title": "Cepillo de Cerdas",
+            "price": 75,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4_TWWFAbCNNqoDXgpxpnXIjxSTD6ALrz1lw&usqp=CAU",
+            "category": "cepillos"
+        },
+        {
+            "id": 16,
+            "title": "Maleta Para Gatos",
+            "price": 99,
+            "image": "https://http2.mlstatic.com/D_NQ_NP_732498-MCO72717360657_112023-O.webp",
+            "category": "guacales"
+        },
+        {
+            "id": 17,
+            "title": "Oftalmosyn",
+            "price": 105,
+            "image": "https://co.virbac.com/files/live/sites/virbac-co/files/predefined-files/packshots/600x600/oftalmosyn-large.jpg",
+            "category": "gotas"
+
+        },
+        {
+            "id": 18,
+            "title": "Mirrapel",
+            "price": 85,
+            "image": "https://www.agrocampo.com.co/media/catalog/product/cache/d51e0dc10c379a6229d70d752fc46d83/5/8/5858658605860000106-v1-min.jpg",
+            "category": "suplemento"
+
+        },
+        {
+            "id": 19,
+            "title": "GNP Pet",
+            "price": 60,
+            "image": "https://m.media-amazon.com/images/I/81luMEf+1mS.jpg",
+            "category": "suplemento"
+        },
+        {
+            "id": 20,
+            "title": "Colirio Zoo",
+            "price": 35,
+            "image": "data:image/jpeg;base64,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",
+            "category": "gotas"
+        },
+        {
+            "id": 21,
+            "title": "Guacal Para Gatos",
+            "price": 99,
+            "image": "https://perrosogatos.com.co/wp-content/uploads/2022/12/120741.png",
+            "category": "guacales"
+        },
+        {
+            "id": 22,
+            "title": "Peine Para Gato",
+            "price": 101,
+            "image": "https://www.agrocampo.com.co/media/catalog/product/cache/d51e0dc10c379a6229d70d752fc46d83/3/1/313100262-min.jpg",
+            "category": "cepillos"
+        },
+        {
+            "id": 23,
+            "title": "Hueso Masticable",
+            "price": 65,
+            "image": "https://m.media-amazon.com/images/I/61ixT5DxpDL.jpg",
+            "category": "juguetes"
+        },
+        {
+            "id": 24,
+            "title": "Agility Gold Gatos",
+            "price": 65,
+            "image": "https://petmedellin.com/wp-content/uploads/2020/03/Agility-Gold-Gatos.jpg",
+            "category": "comida"
+        }
+    ]
+}
