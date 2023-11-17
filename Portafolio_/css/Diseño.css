@@ -1,0 +1,75 @@
+.titulo{
+    position: absolute;
+    width: 1000px;
+    height: 60px;
+    top: 10px;
+}
+.encabezado{
+    position: relative;
+    width: 420px;
+    height: 280px;
+    left: 4px;
+    top: 340px;
+    color: aliceblue;
+}
+.Foto{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    left: 100px;
+    top: 40px;
+    border-radius: 360px;
+    
+}
+.Capacidades{
+    position: absolute;
+    width: 287px;
+    height: 316px;
+    left: 500px;
+    top: 340px;
+    color: aliceblue;
+}
+.info{
+    position: absolute;
+    width: 657px;
+    height: 216px;
+    left: 500px;
+    top: 30px;
+    color: aliceblue;
+}
+.Principal{
+    min-height: 128vh;
+    background-image: url(17010.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.txtInfo{
+    position: absolute;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: aliceblue;
+}
+.txtEducacion{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+.txtExperiencia{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+.txtAficiones{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}
+.txtRecomendaciones{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    function muestra(cnombre){
+        var nombre  = cnombre.value;
+        alert("Eres " + nombre);
+        cnombre.value = "";
+        cnombre.focus();
+    }
+</script>
+</head>
+<body>
+    <form>
+        <input type="text" name="cnombre" size="20">
+        <input type="button" value="Ver" onclick="muestra(this.form.cnombre)">
+    </form>
+</body>
+</html>

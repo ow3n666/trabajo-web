@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather:ital@1&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    font-size: 48px;
+}
+.contenedor{
+    background-color: blueviolet;
+    width: 1060px;
+    padding: 9px;
+    margin: 15px;
+    border-radius: 15px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.foto-logo{
+    border-radius: 15px 15px 0px 0px;
+}
+.tutular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.eslogan{
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    justify-content: center;
+    margin: 15px;
+}
+.texto-eslogan{
+    color: white;
+    width: 50%;
+    border-style: solid;
+    margin: 5px;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.icon-menu{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    padding: 5px;
+    margin: 5px;
+    justify-content: center;
+}
+.boton{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: blue;
+    border-radius: 90px;
+    color: white;
+    text-align: center; 
+    padding: 10px;
+}
+.boton:hover{
+    color: cadetblue;
+    background-color: brown;
+}
+.pie-pagina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    margin: 15px;
+    justify-content: center;
+}
+.ficha{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-style: solid;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;    
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-style: solid;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 992px) {
+    .contenedor{
+        width: 800px;
+    }
+    .contenido{
+        display: flex;
+        flex-direction: column;
+    }
+    .ficha{
+        width: 80%;
+    }
+    .eslogan{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

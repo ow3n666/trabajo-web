@@ -1,0 +1,25 @@
+body{
+    font-family:Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+section{
+    display: inline-grid;
+    border-radius: 25px;
+    background-color: grey;
+    width: 50%;
+    padding: 15px;
+}
+#start-download{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+#progress{
+    font-weight: bold;
+    margin: 20px;
+}

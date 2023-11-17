@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        function hola(){
+            alert("hola mundo");
+            num1 = "12";
+            num2 = 10;
+            x = num1 + num2;
+            alert(x);
+            y = num2 + num1;
+            alert(y);
+            num1 = 22;
+            c = num1 + num2;
+            alert(c);
+        }
+        //ejemplo 2
+
+        var global = 100;
+        function uno(){
+            var local_uno = 1; // "let" para evitar que las variables sean reasignadass 
+            console.log(local_uno);
+            alert("Global" + global + " Local " + local_uno);
+            dos();
+        }
+        function dos(){
+            var local_dos = 2;
+            console.log(local_dos);
+            alert("Global" + global + " Local " + local_dos)
+        }
+
+        //ejemplo 3
+        function Sumar(){
+            let numero1 = 0;
+            n1 = parseInt(prompt("Introdce el numero a", "0"));
+            n2 = parseInt(prompt("Introdce el numero b", "0"));
+            t = n1 + n2;
+            alert("Total: " + t);
+        }
+        
+        function Restar(){
+            let numero1 = 0;
+            n1 = parseInt(prompt("Introdce el numero a", "0"));
+            n2 = parseInt(prompt("Introdce el numero b", "0"));
+            t = n1 - n2;
+            alert("Total: " + t);
+        }
+        
+        function Multiplicar(){
+            let numero1 = 0;
+            n1 = parseInt(prompt("Introdce el numero a", "0"));
+            n2 = parseInt(prompt("Introdce el numero b", "0"));
+            t = n1 * n2;
+            alert("Total: " + t);
+        }
+        
+        function Dividir(){
+            let numero1 = 0;
+            n1 = parseInt(prompt("Introdce el numero a", "0"));
+            n2 = parseInt(prompt("Introdce el numero b", "0"));
+            t = n1 / n2;
+            alert("Total: " + t);
+        }
+        //ejemplo 4
+        function muestra(cnombre){
+        var nombre  = cnombre.value;
+        alert("Eres " + nombre);
+        cnombre.value = "";
+        cnombre.focus();
+    }
+
+    //ejemplo 5
+    function calculadora(num1,num2, operacion){
+        alert(num1 + " " + num2 + operacion);
+        let resultado = 0;
+        if((operacion === 1)){
+            resultado = parseInt(num1) + parseInt(num2);
+        }
+        if((operacion === 2)){
+            resultado = parseInt(num1) - parseInt(num2);
+        }
+        if((operacion === 3)){
+            resultado = parseInt(num1) * parseInt(num2)
+        }
+        if((operacion === 4)){
+            resultado = parseInt(num1) / parseInt(num2);
+        }
+        alert(resultado)
+    }
+        
+    </script>
+    <title>EjercicioJavaS</title>
+</head>
+<body>
+    <section>
+        <!--  <button onclick="Sumar();">Sumar</button>
+        <button onclick="Restar();">Resta</button>
+        <button onclick="Multiplicar()">Multiplicar</button>
+        <button onclick="Dividir()">Dividir</button>
+    </section> -->
+
+    <!--<form>
+        <input type="text" name="cnombre" size="20">
+        <input type="button" value="Ver" onclick="muestra(this.form.cnombre)">
+    </form> -->
+
+    <form action="">
+        <label for="">N1</label>
+        <input type="number" name="n1" value= 0>
+        <label for="">N2</label>
+        <input type="number" name="n2" value= 0>
+        <button onclick = "calculadora(this.form.n1.value.this.form.n2.value,1)">Sumar</button>
+        <button onclick = "calculadora(this.form.n1.value.this.form.n2.value,2)">Restar</button>
+        <button onclick = "calculadora(this.form.n1.value.this.form.n2.value,3)">Multiplicar</button>
+        <button onclick = "calculadora(this.form.n1.value.this.form.n2.value,2)">Dividir</button>
+    </section> 
+    </form>
+</body>
+</html>

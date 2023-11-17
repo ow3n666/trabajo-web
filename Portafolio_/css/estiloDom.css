@@ -1,0 +1,129 @@
+:root {
+  /* CSS HEX */
+  --federal-blue: #0a0040ff;
+  --navy-blue: #0f0060ff;
+  --navy-blue-2: #100068;
+  --navy-blue-3: #11006cff;
+  --navy-blue-4: #11006eff;
+  --navy-blue-5: #140083ff;
+  --duke-blue: #170098ff;
+  --medium-blue: #1d00c0ff;
+  --blue: #2600ffff;
+  --black-bean: #400000ff;
+  --blood-red: #600000;
+  --blood-red-2: #700000ff;
+  --maroon: #800000ff;
+  --penn-red: #a00000ff;
+  --engineering-orange: #c00000ff;
+  --engineering-orange-2: #d00000ff;
+  --red-cmyk: #e00000ff;
+  --red: #ff0000ff;
+  --veronica: #ae00ffff;
+  --french-violet: #8300c0ff;
+  --indigo: #69009aff;
+  --indigo-2: #60008dff;
+  --indigo-3: #570080ff;
+  --indigo-4: #4d0070ff;
+  --indigo-5: #420060ff;
+  --russian-violet: #2c0040ff;
+  --russian-violet: #260050ff;
+  --russian-violet-2: #23004eff;
+  --russian-violet-3: #21004dff;
+  --russian-violet-4: #20004dff;
+  --russian-violet-5: #1f004cff;
+  --russian-violet-6: #1e004bff;
+  --russian-violet-7: #1c004aff;
+  --russian-violet-8: #180048ff;
+  --rosewood: #560008ff;
+  --chocolate-cosmos: #4b0010ff;
+  --chocolate-cosmos-2: #400018ff;
+  --tyrian-purple: #3b001cff;
+  --dark-purple: #350020ff;
+  --dark-purple-2: #2b0028ff;
+  --russian-violet: #200030;
+  --russian-violet-2: #150038ff;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+.ola {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+header {
+  width: 100%;
+  height: 600px;
+  background: #23074d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,hsla(13, 60%, 50%, 0.603),hsla(264, 83%, 16%, 0.603)), url(/image/griffith.jpg);
+  background: linear-gradient(to right,hsla(13, 60%, 50%, 0.603),hsla(264, 83%, 16%, 0.603)), url(/image/griffith.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+header .textos{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.textos h1{
+    font-size: 50px;
+    color: white;
+}
+.textos p{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+}
+body{
+    background-color: var(--russian-violet);
+}
+.cont{
+    padding: 80px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100vw;
+    align-items: center;
+  }
+  .contenido img{
+    width: 450px;
+    height: 250px;
+    grid-column: 1/5;
+  }
+  .contenido-info{
+    grid-column: 5/10;
+    padding: 3em;
+  }
+  .contenido-info h2{
+    font-size: 2em;
+    color: var(--chocolate-cosmos)
+  }
+  .divider{
+    height: 4px;
+    width: 80px;
+    background-color: var(--blood-red-2);
+    margin-top: 7px;
+    margin-bottom: 2em;
+  }
+  .contenido-info p{
+    margin-bottom: 1em;
+    color: white;
+  }
+
